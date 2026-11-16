@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fashion3D</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a id="logo" href="#men" aria-label="Fashion3D home"></a>
+  <nav id="nav">
+    <a data-cid="men" href="#men">Men's</a>
+    <a data-cid="women" href="#women">Women's</a>
+    <a data-cid="kids" href="#kids">Kid's</a>
+    <a data-ov="collections" href="#">Collections</a>
+    <a data-ov="about" href="#">About</a>
+    <a data-ov="contact" href="#">Contact</a>
+  </nav>
+  <div class="actions">
+    <button id="btn-search" aria-label="Search"></button>
+    <button id="btn-bag" aria-label="Shopping bag"></button>
+    <button id="btn-theme" aria-label="Toggle theme"></button>
+  </div>
+</header>
+<div id="spacer"></div>
+<div id="stage"><div id="frame" role="img" aria-label="Fashion model photo">
+  <!-- <div id="clip"> -->
+    <div id="zoomwrap"><div id="boxes">
+    <!-- </div> -->
+  </div></div><div id="hotspots"></div></div></div>
+<div id="hero"></div>
+<div id="hotspots"></div>
+<button id="resetfocus" aria-label="Back to full look"></button>
+<div id="counter"></div>
+<div id="viewbar"></div>
+<aside id="panel" aria-label="In this look"></aside>
+<aside id="drawer" aria-label="Product details"></aside>
+<aside id="cart" aria-label="Shopping bag"></aside>
+<div id="overlay"><div class="modal"></div></div>
+<div id="toast" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>
