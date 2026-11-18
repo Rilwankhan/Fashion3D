@@ -484,45 +484,54 @@
           bg: { top: "#4c4d52", bottom: "#17181b" },
           products: [
             l(
-              "w-tank-01",
-              "Ribbed Crop Top",
-              "crop",
+              "w-inner-01",
+              "Black Inner Top",
+              "tee",
               "Tops",
-              1499,
-              1999,
+              1299,
+              1699,
               "wtop",
               [
                 ["Black", "#18181a"],
-                ["White", "#f0efea"],
-                ["Mocha", "#7a5a49"],
               ],
             ),
             l(
-              "w-jeans-01",
-              "Wide Leg Jeans",
-              "widejeans",
-              "Jeans",
-              2499,
-              3299,
+              "w-coat-01",
+              "Tailored Outer Coat",
+              "jacket",
+              "Outerwear",
+              4999,
+              6499,
+              "wtop",
+              [
+                ["Black", "#18181b"],
+                ["Camel", "#a98763"],
+              ],
+            ),
+            l(
+              "w-pant-01",
+              "Tailored Trousers",
+              "trousers",
+              "Trousers",
+              2899,
+              3799,
               "wwaist",
               [
-                ["Light Wash", "#8fa8c4"],
-                ["Mid Blue", "#5b789c"],
                 ["Black", "#2a2b2f"],
+                ["Taupe", "#8b7d6c"],
               ],
             ),
             l(
-              "w-snk-01",
-              "Classic Sneakers",
-              "sneaker",
+              "w-shoe-01",
+              "Formal Heels",
+              "heel",
               "Footwear",
-              3499,
-              4599,
+              3299,
+              4299,
               "shoeW",
               [
-                ["White", "#f4f4f2"],
-                ["Grey", "#a0a1a5"],
-                ["Pink", "#e5b7c0"],
+                ["Black", "#18181a"],
+                ["Nude", "#d1a98a"],
               ],
             ),
           ],
@@ -617,6 +626,19 @@
               ],
             ),
             l(
+              "w-trs-03",
+              "Wide-Leg Trousers",
+              "trousers",
+              "Trousers",
+              2899,
+              3799,
+              "wwaist",
+              [
+                ["Black", "#1e1f23"],
+                ["Taupe", "#8b7d6c"],
+              ],
+            ),
+            l(
               "w-heel-03",
               "Strappy Block Heels",
               "heel",
@@ -659,6 +681,19 @@
                 ["Sage", "#8f9f8a"],
                 ["Sand", "#d0c1a5"],
                 ["Charcoal", "#3b3c42"],
+              ],
+            ),
+            l(
+              "w-bag-04",
+              "Structured Handbag",
+              "backpack",
+              "Accessories",
+              2499,
+              3299,
+              "one",
+              [
+                ["Black", "#1e1f23"],
+                ["Tan", "#a98763"],
               ],
             ),
             l(
@@ -777,34 +812,56 @@
           },
           bg: { top: "#4d4e53", bottom: "#17181b" },
           products: [
-            l("w-tee-06", "Fitted Rib Tee", "tee", "Tops", 999, 1399, "wtop", [
-              ["White", "#f2f1ed"],
-              ["Black", "#1b1b1d"],
-            ]),
             l(
-              "w-jeans-06",
-              "Cargo Wide Jeans",
-              "widejeans",
-              "Jeans",
-              2999,
-              3899,
-              "wwaist",
+              "w-chudi-06",
+              "Chudi Set",
+              "dress",
+              "Traditional Wear",
+              3999,
+              5299,
+              "wtop",
               [
-                ["Faded Grey", "#8c9199"],
-                ["Light Wash", "#8fa8c4"],
+                ["Wine", "#6a1f33"],
+                ["Teal", "#287c78"],
               ],
             ),
             l(
-              "w-snk-06",
-              "Retro Court Sneakers",
-              "sneaker",
+              "w-shawl-06",
+              "Embroidered Shawl",
+              "jacket",
+              "Accessories",
+              1499,
+              1999,
+              "wtop",
+              [
+                ["Cream", "#e8dfca"],
+                ["Maroon", "#6a2639"],
+              ],
+            ),
+            l(
+              "w-leg-06",
+              "Chudi Leggings",
+              "trousers",
+              "Traditional Wear",
+              1299,
+              1699,
+              "wwaist",
+              [
+                ["Black", "#1e1f23"],
+                ["Navy", "#242f4a"],
+              ],
+            ),
+            l(
+              "w-heel-06",
+              "Strappy Heels",
+              "heel",
               "Footwear",
-              3499,
-              4599,
+              2999,
+              3999,
               "shoeW",
               [
-                ["White", "#f4f4f2"],
-                ["Green", "#7fa58b"],
+                ["Black", "#18181a"],
+                ["Nude", "#d1a98a"],
               ],
             ),
           ],
@@ -1187,7 +1244,7 @@
         aspect: 0.6666666666666666,
         looks: {
           "m-01": {
-            src: "images/Formal_men.png",
+            src: "images/Men/Formal_men.png",
             srcset: "",
             hotspots: {
               "m-tee-01": { y: 38 },
@@ -1197,7 +1254,7 @@
             },
           },
           "m-02": {
-            src: "images/Normal_casual_men.png",
+            src: "images/Men/Normal_casual_men.png",
             srcset: "",
             hotspots: {
               "m-sweat-02": { y: 35 },
@@ -1206,7 +1263,7 @@
             },
           },
           "m-03": {
-            src: "images/Casual_men.png",
+            src: "images/Men/Casual_men.png",
             srcset: "",
             hotspots: {
               "m-shirt-03": { y: 36 },
@@ -1215,7 +1272,7 @@
             },
           },
           "m-04": {
-            src: "images/Casual_normal_men.png",
+            src: "images/Men/Casual_normal_men.png",
             srcset: "",
             hotspots: {             
               "m-hood-04": { y: 38 },
@@ -1225,17 +1282,17 @@
                },
           },
           "m-05": {
-            src: "images/Modern_men.png",
+            src: "images/Men/Modern_men.png",
             srcset: "",
             hotspots: {
-              "m-jkt-05": { y: 38, x: 50 },
-              "m-tee-05": { y: 29 },
+              "m-jkt-05": { y: 30, x: 48},
+              "m-tee-05": { y: 38, x: 53  },
               "m-trs-05": { y: 65 },
               "m-boot-05": { y: 90 },
             },
           },
           "m-06": {
-            src: "images/Normal_men.png",
+            src: "images/Men/Normal_men.png",
             srcset: "",
             hotspots: {
               "m-sweat-06": { y: 35 },
@@ -1250,12 +1307,64 @@
         note: "Same adult female model in all 6 looks",
         aspect: 0.6666666666666666,
         looks: {
-          "w-01": { src: "images/women/look-01.jpg", srcset: "", hotspots: {} },
-          "w-02": { src: "images/women/look-02.jpg", srcset: "", hotspots: {} },
-          "w-03": { src: "images/women/look-03.jpg", srcset: "", hotspots: {} },
-          "w-04": { src: "images/women/look-04.jpg", srcset: "", hotspots: {} },
-          "w-05": { src: "images/women/look-05.jpg", srcset: "", hotspots: {} },
-          "w-06": { src: "images/women/look-06.jpg", srcset: "", hotspots: {} },
+          "w-01": {
+            src: "images/Womens/Formal_women.png",
+            srcset: "",
+            hotspots: {
+              "w-inner-01": { y: 27, x: 48 },
+              "w-coat-01": { y: 37 , x: 35},
+              "w-pant-01": { y: 65 },
+              "w-shoe-01": { y: 92 },
+            },
+          },
+          "w-02": {
+            src: "images/Womens/Casual_women.png",
+            srcset: "",
+            hotspots: {
+              "w-crop-02": { y: 25 },
+              "w-jeans-02": { y: 55 },
+              "w-snk-02": { y: 93 },
+            },
+          },
+          "w-03": {
+            src: "images/Womens/Chudi_women.png",
+            srcset: "",
+            hotspots: {
+              "w-dress-03": { y: 30, x: 47 },
+              "w-trs-03": { y: 65 },
+              "w-heel-03": { y: 93, x: 37 },
+            },
+          },
+          "w-04": {
+            src: "images/Womens/Classic_women.png",
+            srcset: "",
+            hotspots: {
+              "w-cotop-04": { y: 30 },
+              "w-bag-04": { y: 45,x: 65 },
+              "w-cotrs-04": { y: 70 },
+              "w-snk-04": { y: 94 },
+            },
+          },
+          "w-05": {
+            src: "images/Womens/Modern_women.png",
+            srcset: "",
+            hotspots: {
+              "w-blz-05": { y: 28 },
+              "w-tank-05": { y: 42,x: 35},
+              "w-trs-05": { y: 65 },
+              "w-heel-05": { y: 95, x: 50 },
+            },
+          },
+          "w-06": {
+            src: "images/Womens/Chudi_normal_women.png",
+            srcset: "",
+            hotspots: {
+              "w-chudi-06": { y: 33},
+              "w-shawl-06": { y: 50, x: 39 },
+              "w-leg-06": { y: 82, x: 55 },
+              "w-heel-06": { y: 92 },
+            },
+          },
         },
       },
       kids: {
@@ -1263,12 +1372,60 @@
         note: "Same child model in all 6 looks",
         aspect: 0.6666666666666666,
         looks: {
-          "k-01": { src: "images/kids/look-01.jpg", srcset: "", hotspots: {} },
-          "k-02": { src: "images/kids/look-02.jpg", srcset: "", hotspots: {} },
-          "k-03": { src: "images/kids/look-03.jpg", srcset: "", hotspots: {} },
-          "k-04": { src: "images/kids/look-04.jpg", srcset: "", hotspots: {} },
-          "k-05": { src: "images/kids/look-05.jpg", srcset: "", hotspots: {} },
-          "k-06": { src: "images/kids/look-06.jpg", srcset: "", hotspots: {} },
+          "k-01": {
+            src: "images/kids/look-01.jpg",
+            srcset: "",
+            hotspots: {
+              "k-tee-01": { y: 35 },
+              "k-short-01": { y: 65 },
+              "k-snk-01": { y: 90 },
+            },
+          },
+          "k-02": {
+            src: "images/kids/look-02.jpg",
+            srcset: "",
+            hotspots: {
+              "k-hood-02": { y: 35 },
+              "k-jeans-02": { y: 65 },
+              "k-snk-02": { y: 90 },
+            },
+          },
+          "k-03": {
+            src: "images/kids/look-03.jpg",
+            srcset: "",
+            hotspots: {
+              "k-tee-03": { y: 35 },
+              "k-trs-03": { y: 65 },
+              "k-snk-03": { y: 90 },
+              "k-bag-03": { x: 75, y: 42 },
+            },
+          },
+          "k-04": {
+            src: "images/kids/look-04.jpg",
+            srcset: "",
+            hotspots: {
+              "k-dress-04": { y: 50 },
+              "k-flat-04": { y: 90 },
+            },
+          },
+          "k-05": {
+            src: "images/kids/look-05.jpg",
+            srcset: "",
+            hotspots: {
+              "k-trkj-05": { y: 35 },
+              "k-trkp-05": { y: 65 },
+              "k-snk-05": { y: 90 },
+            },
+          },
+          "k-06": {
+            src: "images/kids/look-06.jpg",
+            srcset: "",
+            hotspots: {
+              "k-tee-06": { y: 35 },
+              "k-jeans-06": { y: 65 },
+              "k-snk-06": { y: 90 },
+            },
+          },
         },
       },
     },
@@ -1470,7 +1627,11 @@
     c = { s: 1, fx: 0.5, fy: 0.5, w: 0, h: 0, tx: 0, ty: 0, aspect: 2 / 3 },
     y = null,
     de = null,
-    he = null;
+    he = null,
+    carouselSlides = new Map(),
+    carouselCategory = null,
+    carouselCenter = -1,
+    carouselRun = 0;
   function $e() {
     let e = window.innerWidth,
       t = window.innerHeight,
@@ -1491,8 +1652,9 @@
       t = Math.max(160, e.W - e.rui - (e.mobile ? 8 : 40)),
       o = Math.max(200, e.H - e.top - e.bottom),
       s = o,
-      a = s * c.aspect;
-    (a > t && ((a = t), (s = a / c.aspect)),
+      f = c.aspect * 1.6,
+      a = s * f;
+    (a > t && ((a = t), (s = a / f)),
       Object.assign(Ke.style, {
         top: e.top + "px",
         height: o + "px",
@@ -1535,27 +1697,12 @@
     let a = new Image();
     ((a.decoding = "async"), (a.src = s.src));
   }
-  function fe(e, t, o, s) {
-    let a = m[e],
-      r = document.createElement("div");
-    return (
-      (r.className = "ph"),
-      (r.innerHTML = `<div class="ph-guide"><i></i><i></i><i></i><i></i></div>
-    <div class="ph-text"><small>${a.label.toUpperCase()} \xB7 LOOK ${x(m[e].looks.indexOf(t) + 1)}</small>
-    <b>Model photo goes here</b>
-    <span>${o.modelName} \xB7 full body, head to toe</span>
-    <em>Wearing: ${t.products.map((n) => n.name).join(" \xB7 ")}</em>
-    <code>${o.src || "(no path set in models.js)"}</code>
-    ${s ? "<u>File not found yet \u2014 placeholder shown</u>" : ""}</div>`),
-      r
-    );
-  }
   function Xe(e, t, o) {
     let s = document.createElement("div");
     return (
       (s.className = "slide"),
       (s.ready = new Promise((a) => {
-        if (!o.src) return (s.appendChild(fe(e, t, o, !1)), a());
+        if (!o.src) return a();
         let r = new Image();
         ((r.draggable = !1),
           (r.decoding = "async"),
@@ -1566,9 +1713,7 @@
           (r.onload = () => {
             (r.decode ? r.decode() : Promise.resolve()).catch(() => {}).then(a);
           }),
-          (r.onerror = () => {
-            (s.replaceChildren(fe(e, t, o, !0)), a());
-          }),
+          (r.onerror = () => (r.remove(), a())),
           (r.src = o.src),
           s.appendChild(r));
       })),
@@ -1577,32 +1722,52 @@
   }
   function _e(e, t, o) {
     ((y = X(e, t)), (c.aspect = y.aspect), D(), R.classList.add("wait"));
-    let s = Xe(e, t, y);
-    (s.style.setProperty("--dy", o * 22 + "px"),
-      ve.insertBefore(s, te),
-      (he = s),
-      s.ready.then(() => {
-        if (he !== s) {
-          s.remove();
-          return;
-        }
-        let a = s.querySelector("img");
-        if (a && a.naturalWidth && a.naturalHeight) {
-          c.aspect = a.naturalWidth / a.naturalHeight;
+    let s = ++carouselRun,
+      a = C().looks,
+      r = new Map(),
+      n = [i.idx - 1, i.idx, i.idx + 1].filter((u) => u >= 0 && u < a.length),
+      l = carouselCategory === e ? carouselSlides : new Map(),
+      p = carouselCategory === e ? carouselSlides : new Map();
+    p.forEach((u, f) => {
+      if (n.includes(f)) return;
+      u.classList.remove("center", "left", "right");
+      u.classList.add(f < i.idx ? "depart-left" : "depart-right");
+      setTimeout(() => {
+        if (![...carouselSlides.values()].includes(u)) u.remove();
+      }, 900);
+    });
+    n.forEach((u) => {
+      let f = l.get(u) || Xe(e, a[u], X(e, a[u]));
+      f.dataset.lookIndex = u;
+      if (!f.isConnected) {
+        let v = u === i.idx ? "center" : u < i.idx ? "left" : "right";
+        if (carouselCategory === e && carouselCenter >= 0 && u !== i.idx)
+          v = u < carouselCenter ? "enter-left" : "enter-right";
+        f.classList.add(v);
+      }
+      r.set(u, f);
+      if (!f.isConnected) ve.insertBefore(f, te);
+    });
+    (carouselCategory !== e && carouselSlides.forEach((u) => u.remove()),
+      carouselCategory = e,
+      carouselSlides = r,
+      Promise.all([...r.values()].map((u) => u.ready)).then(() => {
+        if (s !== carouselRun) return;
+        let u = r.get(i.idx)?.querySelector("img");
+        if (u && u.naturalWidth && u.naturalHeight) {
+          c.aspect = u.naturalWidth / u.naturalHeight;
           D();
         }
         requestAnimationFrame(() => {
-          s.classList.add("in");
-          let r = de;
-          ((de = s),
-            r &&
-              (r.classList.remove("in"),
-              r.classList.add("out"),
-              setTimeout(() => r.remove(), 900)),
-            R.classList.remove("wait"),
-            setTimeout(() => {
-              (ue(e, i.idx + 1), ue(e, i.idx - 1));
-            }, 400));
+          if (s !== carouselRun) return;
+          carouselSlides.forEach((f, v) => {
+            f.classList.remove("center", "left", "right", "enter-left", "enter-right", "depart-left", "depart-right");
+            f.classList.add(v === i.idx ? "center" : v < i.idx ? "left" : "right");
+          });
+          carouselCenter = i.idx;
+          R.classList.remove("wait");
+          ue(e, i.idx + 1);
+          ue(e, i.idx - 1);
         });
       }));
   }
@@ -1773,8 +1938,9 @@
         let t = W[e.id],
           o = y.hotspots[e.id];
         if (!t || !o) return;
-        let s = c.tx + c.s * (o.x / 100) * c.w,
-          a = c.ty + c.s * (o.y / 100) * c.h;
+        let n = Math.min(1, 0.6 * (c.w / c.h) / c.aspect),
+          s = c.tx + c.s * (0.2 + 0.6 * (o.x / 100)) * c.w,
+          a = c.ty + c.s * ((1 - n) / 2 + n * (o.y / 100)) * c.h;
         ((t.style.left = s + "px"), (t.style.top = a + "px"));
         let r = s > -4 && s < c.w + 4 && a > -4 && a < c.h + 4;
         (t.classList.toggle("hide", !r),
@@ -1787,8 +1953,8 @@
     t &&
       ((i.focusPid = e),
       (c.s = t.zoom || 2),
-      (c.fx = t.x / 100),
-      (c.fy = t.y / 100),
+      (c.fx = 0.2 + 0.6 * (t.x / 100)),
+      (c.fy = (1 - Math.min(1, 0.6 * (c.w / c.h) / c.aspect)) / 2 + Math.min(1, 0.6 * (c.w / c.h) / c.aspect) * (t.y / 100)),
       N(),
       E(e),
       d("#resetfocus").classList.add("show"));
